@@ -1,0 +1,40 @@
+/* Ensures that all table cells are the same size */
+table {
+    table-layout: fixed ;
+    width: 100% ;
+}
+td, th {
+    width: 25% ;
+    border-color: black !important;
+    color: white;
+}
+
+td {
+    background-color: gray;
+    color: white;
+}
+
+.dateAndLocation{
+  background-color: gray;
+}
+  
+.tableArea{
+    /* background-color: black; */
+}
+
+.recentGamePic{
+  /* width; */
+  background-color: green;
+}
+
+.recentGamePic img{
+  width: 200px;
+  height: 150px;
+  /* background-color: aquamarine; */
+}
+
+
+  
+*{
+  color: whitesmoke;
+}
