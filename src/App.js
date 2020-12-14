@@ -4,11 +4,11 @@ import RecentGames from './RecentGames'
 import Header from './Header';
 import Footer from './Footer'
 import RegistrationPage from './RegistrationPage';
-import { BrowserRouter as Router,
-  // Switch,
-  Route,
-  // Link
-} from "react-router-dom";
+// import { BrowserRouter as Router,
+//   // Switch,
+//   Route,
+//   // Link
+// } from "react-router-dom";
 
 function App() {
  
