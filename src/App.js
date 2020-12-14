@@ -14,19 +14,19 @@ function App() {
  
   return (
     <div className="App">
-        <Router>
+        {/* <Router>
           <Route path="*" component={Header}/>
           <Route exact path ="/" component={RecentGames}/>
           <Route exact path ="/" component={GameDetailsTable}/>
           <Route path="/register" component={RegistrationPage}/>
           <Route path="*" component={Footer}/>
-        </Router>
+        </Router> */}
 
-        {/* <Header/>
+        <Header/>
         <RecentGames/>
         <GameDetailsTable/>
         <RegistrationPage/>
-        <Footer/> */}
+        <Footer/>
        
     </div>
   );
