@@ -21,6 +21,12 @@ function App() {
           <Route path="/register" component={RegistrationPage}/>
           <Route path="*" component={Footer}/>
         </Router>
+
+        {/* <Header/>
+        <RecentGames/>
+        <GameDetailsTable/>
+        <RegistrationPage/>
+        <Footer/> */}
        
     </div>
   );
