@@ -5,9 +5,9 @@ import Header from './Header';
 import Footer from './Footer'
 import RegistrationPage from './RegistrationPage';
 import { BrowserRouter as Router,
-  Switch,
+  // Switch,
   Route,
-  Link
+  // Link
 } from "react-router-dom";
 
 function App() {
