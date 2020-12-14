@@ -14,7 +14,7 @@ td {
     color: white;
 }
 
-.dateAndLocation{
+.dateAndLocation, .manOfMatch{
   background-color: gray;
 }
   
@@ -23,18 +23,68 @@ td {
 }
 
 .recentGamePic{
-  /* width; */
   background-color: green;
 }
 
 .recentGamePic img{
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 200px;
   height: 150px;
-  /* background-color: aquamarine; */
+  padding-top: 10px;
 }
 
 
   
 *{
   color: whitesmoke;
+}
+
+#headerDiv{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#footerDiv {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.recentGames {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#upcomingGamesHeader {
+  margin-bottom: 30px;
+}
+
+#registrationForm {
+  background-color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.motmPhoto {
+  width: 200px;
+  height: 200px;
+  padding-top: 20px;
+}
+
+#motmPhotoCell img{
+  align-content: center;
+}
+
+.manOfMatch {
+  background-color: green;
+}
+
+.gameSchedule {
+  border-style: groove;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-top: 60px;
 }
