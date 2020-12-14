@@ -25,6 +25,7 @@ function App() {
         <Header/>
         <RecentGames/>
         <GameDetailsTable/>
+        <br/>
         <RegistrationPage/>
         <Footer/>
        
