@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './tablestyles.css'
-import image from './amongusgame1.png'
+// import image from './amongusgame1.png'
 import motm from './motmcharacter.png'
 
 // This Component is table-based. It dynamically outputs 12 Bootstrap Tables with data generated from dummy arrays
