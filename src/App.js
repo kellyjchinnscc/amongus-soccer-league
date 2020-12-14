@@ -4,17 +4,24 @@ import RecentGames from './RecentGames'
 import Header from './Header';
 import Footer from './Footer'
 import RegistrationPage from './RegistrationPage';
-// import { Router } from 'react-dom';
+import { BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
  
   return (
     <div className="App">
-        <Header/>
-        <RecentGames/>
-        <GameDetailsTable/>
-        <RegistrationPage/>
-        <Footer/>
+        <Router>
+          <Route path="*" component={Header}/>
+          <Route exact path ="/" component={RecentGames}/>
+          <Route exact path ="/" component={GameDetailsTable}/>
+          <Route path="/register" component={RegistrationPage}/>
+          <Route path="*" component={Footer}/>
+        </Router>
+       
     </div>
   );
 }

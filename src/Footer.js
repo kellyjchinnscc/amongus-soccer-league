@@ -5,7 +5,7 @@ export class Footer extends Component {
         return (
             <React.Fragment>
             <div id="footerDiv">
-                <h1 className="bg-primary">Wanna Join the League? | Drop us a line - <a href="www.google.ca">soccer@amongus.ca</a></h1>
+                <h1 className="bg-primary">Wanna Join the League? | <a href="/register">Register Here!</a> | <a href="/">Main Page</a></h1>
             </div>
             </React.Fragment>
         )
